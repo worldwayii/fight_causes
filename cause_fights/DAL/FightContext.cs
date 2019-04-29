@@ -11,7 +11,7 @@ namespace cause_fights.DAL
 {
     public class FightContext : DbContext
     {
-        public FightContext() : base("SchoolContext")
+        public FightContext() : base("DefaultConnection")
         {
         }
 
